@@ -6,17 +6,32 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:BJG-17-the-system-must-be-able-to-create-a-deck-of-cards" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/dev" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c23c0fe1-a83b-4b7f-8db6-570c92a81e97" name="Default Changelist" comment="" />
+    <list default="true" id="c23c0fe1-a83b-4b7f-8db6-570c92a81e97" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/test_Deck.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test_Deck.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +47,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="BJG-17-the-system-must-be-able-to-create-a-deck-of-cards" />
+        <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -156,10 +171,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Deck" />
         <item itemvalue="Python tests.Unittests for test_Deck.mainTest" />
         <item itemvalue="Python.Suit" />
         <item itemvalue="Python.Label" />
-        <item itemvalue="Python.Deck" />
         <item itemvalue="Python.Card" />
       </list>
     </recent_temporary>
@@ -178,6 +193,8 @@
       <workItem from="1643643371815" duration="310000" />
       <workItem from="1643644559458" duration="308000" />
       <workItem from="1643645047277" duration="377000" />
+      <workItem from="1643647408290" duration="331000" />
+      <workItem from="1643647877296" duration="1781000" />
     </task>
     <servers />
   </component>
@@ -195,7 +212,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="BJG-17-the-system-must-be-able-to-create-a-deck-of-cards" />
+                        <option value="origin/dev" />
                       </list>
                     </value>
                   </entry>
@@ -209,22 +226,22 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1481" height="191" key="GridCell.Tab.0.bottom" timestamp="1643644581095">
+    <state width="1481" height="191" key="GridCell.Tab.0.bottom" timestamp="1643648928605">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1481" height="191" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1643644581095" />
-    <state width="1481" height="191" key="GridCell.Tab.0.center" timestamp="1643644581095">
+    <state width="1481" height="191" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1643648928605" />
+    <state width="1481" height="191" key="GridCell.Tab.0.center" timestamp="1643648928605">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1481" height="191" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1643644581095" />
-    <state width="1481" height="191" key="GridCell.Tab.0.left" timestamp="1643644581095">
+    <state width="1481" height="191" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1643648928605" />
+    <state width="1481" height="191" key="GridCell.Tab.0.left" timestamp="1643648928605">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1481" height="191" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1643644581095" />
-    <state width="1481" height="191" key="GridCell.Tab.0.right" timestamp="1643644581095">
+    <state width="1481" height="191" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1643648928605" />
+    <state width="1481" height="191" key="GridCell.Tab.0.right" timestamp="1643648928605">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1481" height="191" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1643644581095" />
+    <state width="1481" height="191" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1643648928605" />
     <state x="634" y="244" width="400" height="328" key="MultipleFileMergeDialog" timestamp="1643643515894">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -242,7 +259,7 @@
     <SUITE FILE_PATH="coverage/Black_Jack_Game$Card.coverage" NAME="Card Coverage Results" MODIFIED="1643636278815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Black_Jack_Game$Unittests_for_test_Deck_mainTest_test_deal_card.coverage" NAME="Unittests for test_Deck.mainTest.test_deal_card Coverage Results" MODIFIED="1643639861873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/Black_Jack_Game$Unittests_for_test_Deck_mainTest_test_create_deck_of_card.coverage" NAME="Unittests for test_Deck.mainTest.test_create_deck_of_card Coverage Results" MODIFIED="1643639889049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
-    <SUITE FILE_PATH="coverage/Black_Jack_Game$Deck.coverage" NAME="Deck Coverage Results" MODIFIED="1643644568632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Black_Jack_Game$Deck.coverage" NAME="Deck Coverage Results" MODIFIED="1643648256726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Black_Jack_Game$Unittests_for_test_Deck_mainTest.coverage" NAME="Unittests for test_Deck.mainTest Coverage Results" MODIFIED="1643639919081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/Black_Jack_Game$Value.coverage" NAME="Value Coverage Results" MODIFIED="1643627009717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Black_Jack_Game$Suit.coverage" NAME="Suit Coverage Results" MODIFIED="1643625269409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
