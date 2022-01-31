@@ -15,7 +15,7 @@ class Deck:
 
     def deal_a_card(self):
         for i in range(2):
-            self.cards.pop()
+            self.cards.pop(0)
 
 
 my_deck = Deck()
