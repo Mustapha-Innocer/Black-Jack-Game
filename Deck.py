@@ -13,11 +13,15 @@ class Deck:
     def shuffle_cards(self):
         random.shuffle(self.cards)
 
+    def deal_a_card(self):
+        for i in range(2):
+            self.cards.pop()
+
 
 my_deck = Deck()
 
 print(len(my_deck.cards))
 
-my_deck.shuffle_cards()
+my_deck.deal_a_card()
 
 print(len(my_deck.cards))
