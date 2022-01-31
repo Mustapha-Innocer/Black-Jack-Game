@@ -1,8 +1,8 @@
 import random
 
-from Card import Card
-from Label import Label
-from Suit import Suit
+from .Card import Card
+from .Label import Label
+from .Suit import Suit
 
 
 class Deck:

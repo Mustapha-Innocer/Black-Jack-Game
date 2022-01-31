@@ -1,26 +1,25 @@
 import unittest
-from Deck import Deck
+from black_jack.Deck import Deck
 
 
-class mainTest(unittest.TestCase):
+class MainTest(unittest.TestCase):
     def test_deal_card(self):
         # given
         expected = 51
 
         # when
-        myDeck = Deck()
-        myDeck.deal_card()
+        my_deck = Deck()
+        my_deck.deal_card()
 
         # then
-        self.assertEqual(expected, len(myDeck.cards))
+        self.assertEqual(expected, len(my_deck.cards))
 
     def test_create_deck_of_card(self):
         # given
         expected = 52
 
         # when
-        myDeck = Deck()
+        my_deck = Deck()
 
         # then
-        self.assertEqual(expected, len(myDeck.cards))
-
+        self.assertEqual(expected, len(my_deck.cards))
