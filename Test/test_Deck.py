@@ -5,11 +5,11 @@ from Deck import Deck
 class mainTest(unittest.TestCase):
     def test_deal_card(self):
         # given
-        expected = 50
+        expected = 51
 
         # when
         myDeck = Deck()
-        myDeck.deal_a_card()
+        myDeck.deal_card()
 
         # then
         self.assertEqual(expected, len(myDeck.cards))
