@@ -17,11 +17,3 @@ class Deck:
         for i in range(2):
             self.cards.pop(0)
 
-
-my_deck = Deck()
-
-print(len(my_deck.cards))
-
-my_deck.deal_a_card()
-
-print(len(my_deck.cards))
