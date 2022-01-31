@@ -6,22 +6,24 @@ from Suit import Suit
 
 
 class Deck:
-
     def __init__(self):
         self.cards = [Card(suit, label) for suit in Suit.suits for label in Label.labels]
+        self.shuffle()
 
-    def shuffle_cards(self):
+    def __str__(self):
+        cards_in_deck = ''
+        for card in self.cards:
+            cards_in_deck = cards_in_deck + str(card) + ' '
+        return cards_in_deck
+
+    def shuffle(self):
         random.shuffle(self.cards)
 
-    def deal_a_card(self):
-        for i in range(2):
-            self.cards.pop(0)
+    def deal_card(self):
+        card = self.cards.pop(0)
+        return card
 
 
 my_deck = Deck()
 
-print(len(my_deck.cards))
-
-my_deck.deal_a_card()
-
-print(len(my_deck.cards))
+print(my_deck)
