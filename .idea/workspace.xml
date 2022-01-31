@@ -11,14 +11,12 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:BJG-2-the-system-must-be-able-to-deal-a-card" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:BJG-17-the-system-must-be-able-to-create-a-deck-of-cards" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c23c0fe1-a83b-4b7f-8db6-570c92a81e97" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c23c0fe1-a83b-4b7f-8db6-570c92a81e97" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +32,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="BJG-2-the-system-must-be-able-to-deal-a-card" />
+        <entry key="$PROJECT_DIR$" value="BJG-17-the-system-must-be-able-to-create-a-deck-of-cards" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -179,6 +177,7 @@
       <workItem from="1643620567290" duration="19656000" />
       <workItem from="1643643371815" duration="310000" />
       <workItem from="1643644559458" duration="308000" />
+      <workItem from="1643645047277" duration="377000" />
     </task>
     <servers />
   </component>
@@ -196,7 +195,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="BJG-2-the-system-must-be-able-to-deal-a-card" />
+                        <option value="BJG-17-the-system-must-be-able-to-create-a-deck-of-cards" />
                       </list>
                     </value>
                   </entry>

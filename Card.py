@@ -1,7 +1,3 @@
-from Suit import Suit
-from Label import Label
-
-
 class Card:
 
     def __init__(self, suit, label):
