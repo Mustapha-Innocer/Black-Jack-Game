@@ -6,3 +6,5 @@ def strategy(player):
         player.status = PlayerStatus.HIT
     elif player.total() > 21:
         player.status = PlayerStatus.GO_BUST
+    else:
+        player.status = PlayerStatus.STICK
