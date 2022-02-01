@@ -24,3 +24,11 @@ class TestStrategy(TestCase):
         strategy.strategy(player)
         expected_status = PlayerStatus.GO_BUST
         self.assertEqual(player.status, expected_status)
+
+    def test_stick(self):
+        card1 = Card("heart", "ace")
+        card2 = Card("diamond", "8")
+        player = Player("James", card1, card2)
+        strategy.strategy(player)
+        expected_status = PlayerStatus.STICK
+        self.assertEqual(player.status, expected_status)
