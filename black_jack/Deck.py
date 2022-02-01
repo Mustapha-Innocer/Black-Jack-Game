@@ -8,7 +8,7 @@ from .Suit import Suit
 class Deck:
     def __init__(self):
         self.cards = [Card(suit, label) for suit in Suit.suits for label in Label.labels]
-        self.shuffle()
+        # self.shuffle()
 
     def __str__(self):
         cards_in_deck = ''
