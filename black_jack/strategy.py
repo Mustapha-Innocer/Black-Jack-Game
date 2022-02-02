@@ -1,10 +1,15 @@
 from .player_status import PlayerStatus
 
 
-def strategy(player):
-    if player.total() < 17:
-        player.status = PlayerStatus.HIT
-    elif player.total() > 21:
-        player.status = PlayerStatus.GO_BUST
-    else:
-        player.status = PlayerStatus.STICK
+def strategy(players: list) -> None:
+    """
+
+    :rtype: object
+    """
+    for player in players:
+        if player.total() < 17:
+            player.status = PlayerStatus.HIT
+        elif player.total() > 21:
+            players.remove(player)
+        else:
+            player.status = PlayerStatus.STICK
