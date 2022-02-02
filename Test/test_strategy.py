@@ -1,34 +1,32 @@
 
-
-from unittest import TestCase
-
 from black_jack import strategy
 from black_jack.Card import Card
 from black_jack.player import Player
 from black_jack.player_status import PlayerStatus
+from unittest import TestCase
 
 
 class TestStrategy(TestCase):
     def test_hit(self):
-        card1 = Card("heart", "10")
-        card2 = Card("heart", "2")
-        player = Player("James", card1, card2)
-        strategy.strategy(player)
+        players = [
+            Player("James", Card("heart", "10"), Card("heart", "2"))
+        ]
+        strategy.strategy(players)
         expected_status = PlayerStatus.HIT
-        self.assertEqual(player.status, expected_status)
+        self.assertEqual(players[0].status, expected_status)
 
     def test_go_bust(self):
-        card1 = Card("heart", "ace")
-        card2 = Card("diamond", "ace")
-        player = Player("James", card1, card2)
-        strategy.strategy(player)
-        expected_status = PlayerStatus.GO_BUST
-        self.assertEqual(player.status, expected_status)
+        players = [
+            Player("James", Card("heart", "ace"), Card("diamond", "ace"))
+        ]
+
+        strategy.strategy(players)
+        self.assertTrue(len(players) == 0)
 
     def test_stick(self):
-        card1 = Card("heart", "ace")
-        card2 = Card("diamond", "8")
-        player = Player("James", card1, card2)
-        strategy.strategy(player)
+        players = [
+            Player("James", Card("heart", "ace"), Card("diamond", "8"))
+        ]
+        strategy.strategy(players)
         expected_status = PlayerStatus.STICK
-        self.assertEqual(player.status, expected_status)
+        self.assertEqual(players[0].status, expected_status)
