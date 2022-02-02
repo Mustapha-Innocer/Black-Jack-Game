@@ -8,5 +8,8 @@ def play(players):
             break
         elif all([player.status == PlayerStatus.STICK for player in players]):
             break
-        strategy.strategy(players)
+        elif len(players) == 1:
+            break
         print("In progress")
+        strategy.strategy(players)
+
