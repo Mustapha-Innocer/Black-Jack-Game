@@ -17,3 +17,6 @@ class Player:
     def total(self):
         values = [card.point for card in self.cards]
         return sum(values)
+
+    def receive_card(self, card: Card):
+        return self.cards.append(card)

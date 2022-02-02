@@ -1,4 +1,3 @@
-
 from black_jack import strategy
 from black_jack.Card import Card
 from black_jack.player import Player
