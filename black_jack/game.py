@@ -18,14 +18,13 @@ def game(players, deck):
         print("In progress")
 
 
-deck = Deck()
-deck.shuffle()
-players = []
-for i in range(1, 4):
-    players.append(Player("Player" + str(i), deck.deal_card(), deck.deal_card()))
+def play(number_of_players):
+    deck = Deck()
+    deck.shuffle()
+    players = []
+    for i in range(1, number_of_players + 1):
+        players.append(Player("Player" + str(i), deck.deal_card(), deck.deal_card()))
 
-
-def play():
     game(players, deck)
     while True:
         if len(players) == 1:
@@ -48,6 +47,3 @@ def play():
         else:
             print("No winner")
             break
-
-
-play()
