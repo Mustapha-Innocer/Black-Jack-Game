@@ -1,7 +1,7 @@
-FROM python:3.9.10-alpine3.15
+FROM python:3.9.10-slim-buster
 
 WORKDIR /app
 
-COPY ./ /app
+COPY . .
 
 CMD [ "python", "main.py" ]
