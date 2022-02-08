@@ -10,10 +10,6 @@ class Player:
         self.status = None
         self.count += 1
 
-    @property
-    def set_status(self):
-        return self.status
-
     def total(self):
         values = [card.point for card in self.cards]
         return sum(values)
