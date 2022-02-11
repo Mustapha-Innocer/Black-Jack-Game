@@ -11,5 +11,5 @@ class Card:
         else:
             self.point = int(label)
 
-    def __str__(self):
-        return "(" + self.suit + ": " + self.label + ")"
+    # def __str__(self):
+    #     return "(" + self.suit + ": " + self.label + ")"
